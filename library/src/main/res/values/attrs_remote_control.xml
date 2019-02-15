@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ArrowKeyGroup">
+        <attr name="button" value="reference" />
+        <attr name="buttonBackgroundColor" value="reference" />
+
+        <attr name="okButton" format="color|reference" />
+        <attr name="okButtonBackgroundColor" format="color|reference" />
+        <attr name="okButtonText" format="string" localization="suggested" />
+
+        <attr name="innerRadiusRatio" format="float" />
+        <attr name="thicknessRatio" format="float" />
+        <attr name="innerRadius" format="dimension" />
+        <attr name="thickness" format="dimension" />
+
+        <attr name="useDefaultMargin" format="boolean" />
+    </declare-styleable>
+</resources>

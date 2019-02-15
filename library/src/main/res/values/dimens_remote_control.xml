@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="arrow_key_group_default_margin">8dp</dimen>
+    <dimen name="arrow_key_group_blur_radius">3dp</dimen>
+
+    <dimen name="arrow_key_group_inner_radius">42dp</dimen>
+    <dimen name="arrow_key_group_thickness">48dp</dimen>
+
+    <dimen name="arrow_key_group_ok_button_image_size">40dp</dimen>
+
+</resources>
