@@ -1,6 +1,6 @@
 # RemoteControl
 
-Remote control components for Android.
+Remote control components(views) for Android.
 
 ![](https://github.com/erehmi/RemoteControl/raw/master/screenshot.jpg)
 
