@@ -43,7 +43,7 @@ android:layerType="software"
 ```
 ##### Programmatically:
 ```
-setLayerType(View.LAYER_TYPE_HARDWARE, null) 
+setLayerType(View.LAYER_TYPE_SOFTWARE, null) 
 ```
 
 #### 2. Anti alias
