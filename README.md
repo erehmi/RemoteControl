@@ -41,7 +41,7 @@ You should assign `android:layerType` to `software`.
 ```
 android:layerType="software"
 ```
-###### Programmatically:
+##### Programmatically:
 ```
 setLayerType(View.LAYER_TYPE_HARDWARE, null) 
 ```
@@ -57,7 +57,7 @@ Avoid that, you should do like this:
 ```
 android:rotation="45"
 ```
-###### Programmatically:
+##### Programmatically:
 ```
 setAntiAliasWhenDefaultMarginNotEnabled(true) 
 ```
@@ -65,6 +65,8 @@ or
 ```
 setRotation(45.f)
 ```
+
+![](https://github.com/erehmi/RemoteControl/raw/master/screenshot-3.jpg)
 
 ## License
 
