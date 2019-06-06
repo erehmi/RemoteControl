@@ -1,8 +1,8 @@
-package com.github.erehmi.remotecontrol.samples;
+package com.github.mo0n1andin.remotecontrol.samples;
 
 import android.os.Bundle;
-
-import androidx.appcompat.app.AppCompatActivity;
+import android.support.v7.app.AppCompatActivity;
+import android.webkit.WebView;
 
 /**
  * @author WhatsAndroid

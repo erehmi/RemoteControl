@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.github.erehmi.remotecontrol.samples">
+    package="com.github.mo0n1andin.remotecontrol.samples">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
 
     <application
         android:allowBackup="true"
@@ -10,7 +12,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
 
-        <activity android:name=".MainActivity">
+        <activity android:name="com.github.mo0n1andin.remotecontrol.samples.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
@@ -18,13 +20,13 @@
         </activity>
 
         <activity
-            android:name=".WrapContentSample"
+            android:name="com.github.mo0n1andin.remotecontrol.samples.WrapContentSample"
             android:label="WrapContent"
-            android:parentActivityName=".MainActivity">
+            android:parentActivityName="com.github.mo0n1andin.remotecontrol.samples.MainActivity">
 
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value=".MainActivity" />
+                android:value="com.github.mo0n1andin.remotecontrol.samples.MainActivity" />
 
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -32,13 +34,13 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".MatchParentSample"
+            android:name="com.github.mo0n1andin.remotecontrol.samples.MatchParentSample"
             android:label="MatchParent"
-            android:parentActivityName=".MainActivity">
+            android:parentActivityName="com.github.mo0n1andin.remotecontrol.samples.MainActivity">
 
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value=".MainActivity" />
+                android:value="com.github.mo0n1andin.remotecontrol.samples.MainActivity" />
 
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

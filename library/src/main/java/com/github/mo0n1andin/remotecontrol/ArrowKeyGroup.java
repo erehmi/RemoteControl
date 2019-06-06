@@ -1,4 +1,4 @@
-package com.github.erehmi.remotecontrol;
+package com.github.mo0n1andin.remotecontrol;
 
 import android.annotation.SuppressLint;
 import android.annotation.TargetApi;
@@ -22,6 +22,10 @@ import android.graphics.drawable.Drawable;
 import android.graphics.drawable.ShapeDrawable;
 import android.graphics.drawable.shapes.PathShape;
 import android.os.Build.VERSION_CODES;
+import android.support.annotation.IntDef;
+import android.support.v4.content.ContextCompat;
+import android.support.v4.graphics.drawable.DrawableCompat;
+import android.support.v4.view.ViewCompat;
 import android.text.TextUtils;
 import android.util.AttributeSet;
 import android.util.Log;
@@ -30,11 +34,6 @@ import android.view.View;
 
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
-
-import androidx.annotation.IntDef;
-import androidx.core.content.ContextCompat;
-import androidx.core.graphics.drawable.DrawableCompat;
-import androidx.core.view.ViewCompat;
 
 /**
  * @author WhatsAndroid

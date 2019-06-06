@@ -6,7 +6,7 @@
     android:gravity="center"
     android:orientation="vertical">
 
-    <com.github.erehmi.remotecontrol.ArrowKeyGroup
+    <com.github.mo0n1andin.remotecontrol.ArrowKeyGroup
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layerType="software"
